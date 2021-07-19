@@ -1,3 +1,14 @@
+#result {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #003b49;
+
+  color: #f2c75c;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 #buttons {
   display: grid; 
@@ -6,22 +17,23 @@
 }
 
 button {
-  background-color: #04AA6D;
+  background-color: #003b49;
   padding: 14px 14px;
-  font-size: 16px;
   cursor: pointer;
   text-align: center;
+  border-width: 1px;
+
+  color: #f2c75c;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #clear {
-  background-color: brown;
   grid-column-start: 1;
   grid-column-end: 4;
 }
 
 #zero {
-  background-color: brown;
   grid-column-start: 1;
   grid-column-end: 3;
-}
 }
