@@ -4,30 +4,34 @@
         <meta charset="UTF-8">
         <title>Calculator</title>
         <link rel="stylesheet" href="css/style.css" />
-        <script src="js/script.js"></script>
     </head>
     <body>
         <p>This is a calculator</p>
         <div id="container">
-            <div id="buttons">
-                <button id="clear" class="operators"><-</button>
-                <button id="divide" class="operators">÷</button>
-                <button id="seven" class="numbers">7</button>
-                <button id="eight" class="numbers">8</button>
-                <button id="nine" class="numbers">9</button>
-                <button id="multiply" class="operators">x</button>
-                <button id="four" class="numbers">4</button>
-                <button id="five" class="numbers">5</button>
-                <button id="six" class="numbers">6</button>
-                <button id="minus" class="operators">-</button>
-                <button id="one" class="numbers">1</button>
-                <button id="two" class="numbers">2</button>
-                <button id="three" class="numbers">3</button>
-                <button id="plus" class="operators">+</button>
-                <button id="zero" class="numbers">0</button>
-                <button id="decimal" class="numbers">.</button>
-                <button id="equals" class="operators">=</button>
+            <div id="display">
+                <input type="text" id="result">
+            </div>
+
+            <div id="wrapper">
+                <button id="clear" class="operators" value="AC">AC</button>
+                <button id="divide" class="operators" value="÷">÷</button>
+                <button id="seven" class="numbers" value="7">7</button>
+                <button id="eight" class="numbers" value="8">8</button>
+                <button id="nine" class="numbers" value="9">9</button>
+                <button id="multiply" class="operators" value="x">x</button>
+                <button id="four" class="numbers" value="4">4</button>
+                <button id="five" class="numbers" value="5">5</button>
+                <button id="six" class="numbers" value="6">6</button>
+                <button id="minus" class="operators" value="6">-</button>
+                <button id="one" class="numbers" value="1">1</button>
+                <button id="two" class="numbers" value="2">2</button>
+                <button id="three" class="numbers" value="3">3</button>
+                <button id="plus" class="operators" value="+">+</button>
+                <button id="zero" class="numbers" value="0">0</button>
+                <button id="decimal" class="numbers" value=".">.</button>
+                <button id="equals" class="operators" value="=">=</button>
             </div>
         </div>
     </body>
+    <script src="js/script.js"></script>
 </html>
